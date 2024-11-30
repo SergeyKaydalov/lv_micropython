@@ -110,7 +110,7 @@
 // Use the posix implementation of the "select" module (unless the variant
 // specifically asks for the MicroPython version).
 #ifndef MICROPY_PY_USELECT
-#define MICROPY_PY_USELECT             (0)
+#define MICROPY_PY_USELECT             (1)
 #endif
 #ifndef MICROPY_PY_USELECT_POSIX
 #define MICROPY_PY_USELECT_POSIX       (!MICROPY_PY_USELECT)
